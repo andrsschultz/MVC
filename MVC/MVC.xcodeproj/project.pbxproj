@@ -13,6 +13,8 @@
 		45235C7D21CBE95B00878920 /* MVC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 45235C7B21CBE95B00878920 /* MVC.xcdatamodeld */; };
 		45235C7F21CBE95C00878920 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45235C7E21CBE95C00878920 /* Assets.xcassets */; };
 		45235C8221CBE95C00878920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45235C8021CBE95C00878920 /* LaunchScreen.storyboard */; };
+		45235C8D21CBEA3800878920 /* AppleProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45235C8C21CBEA3800878920 /* AppleProduct.swift */; };
+		45235C8F21CBEBFE00878920 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45235C8E21CBEBFE00878920 /* CustomLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		45235C7E21CBE95C00878920 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45235C8121CBE95C00878920 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45235C8321CBE95C00878920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45235C8C21CBEA3800878920 /* AppleProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProduct.swift; sourceTree = "<group>"; };
+		45235C8E21CBEBFE00878920 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		45235C7321CBE95B00878920 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				45235C8B21CBE9CF00878920 /* View */,
+				45235C8A21CBE9CB00878920 /* Model */,
+				45235C8921CBE9C500878920 /* Controller */,
 				45235C7421CBE95B00878920 /* AppDelegate.swift */,
-				45235C7621CBE95B00878920 /* ViewController.swift */,
 				45235C7821CBE95B00878920 /* Main.storyboard */,
 				45235C7E21CBE95C00878920 /* Assets.xcassets */,
 				45235C8021CBE95C00878920 /* LaunchScreen.storyboard */,
@@ -65,6 +71,30 @@
 				45235C7B21CBE95B00878920 /* MVC.xcdatamodeld */,
 			);
 			path = MVC;
+			sourceTree = "<group>";
+		};
+		45235C8921CBE9C500878920 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				45235C7621CBE95B00878920 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		45235C8A21CBE9CB00878920 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45235C8C21CBEA3800878920 /* AppleProduct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45235C8B21CBE9CF00878920 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				45235C8E21CBEBFE00878920 /* CustomLabel.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +168,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45235C8D21CBEA3800878920 /* AppleProduct.swift in Sources */,
+				45235C8F21CBEBFE00878920 /* CustomLabel.swift in Sources */,
 				45235C7721CBE95B00878920 /* ViewController.swift in Sources */,
 				45235C7D21CBE95B00878920 /* MVC.xcdatamodeld in Sources */,
 				45235C7521CBE95B00878920 /* AppDelegate.swift in Sources */,
